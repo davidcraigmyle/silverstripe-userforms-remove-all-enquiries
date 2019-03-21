@@ -1,0 +1,8 @@
+UserDefinedForm:
+    extensions:
+        - UserFormTracking
+        - UserFormExtension
+
+LeftAndMain:
+  extensions:
+    - UserFormsExtensionLeftAndMain

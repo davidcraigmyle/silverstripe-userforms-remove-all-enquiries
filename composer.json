@@ -1,0 +1,29 @@
+{
+    "name": "davidcraigmyle/silverstripe-userforms-remove-all-enquiries",
+    "description": "UserForms Remove All Enquiries enables CMS users to remove all enquiries within the UserForms module at one time.",
+    "type": "silverstripe-module",
+    "keywords": [
+        "silverstripe",
+        "userforms"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "David Craigmyle",
+            "email": "david@webint.co.uk"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "~3.2",
+        "silverstripe/cms": "~3.2",
+        "symbiote/silverstripe-gridfieldextensions": "~2.0",
+        "silverstripe/segment-field": "^1.0",
+        "silverstripe/silverstripe-userforms": "^4.0"
+    },
+    "suggest": {
+        "colymba/gridfield-bulk-editing-tools": "Allows for bulk management of form submissions",
+        "silverstripe/secureassets": "Enables files uploaded via userforms to be secured from public access",
+        "silverstripe/gridfieldqueuedexport": "Export large submission as CSV through queued jobs in the background",
+        "unclecheese/silverstripe-gridfield-betterbuttons": "Better buttons gives button styles and better management of UserForms"
+    }
+}
