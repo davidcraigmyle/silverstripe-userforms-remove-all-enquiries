@@ -1,5 +1,4 @@
-silverstripe-userforms-remove-all-enquiries
-# SilverStripe UserForms remove all removeAllEnquiries
+# SilverStripe UserForms remove all enquiries
 
 This module for Silverstripe 3.1+ will add a button to UserForms to remove all enquiries from the database.
 
